@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- This is the header section -->
+    <Header>
+        <div>
+            <ul class="headerULleft">
+                <li class="headerlist">
+                    <svg class="locationsvg"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                    </svg>
+                    Housing cent, 10 Ikole Ekiti State
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="headerULright">
+                <li class="headerlist">
+                    <svg class="callsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/>
+                    </svg>
+                    +234 812 2454 756
+                </li>
+                <li class="headerlist">
+                    <svg class="emailsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path d="M64 112c-8.8 0-16 7.2-16 16l0 22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1l0-22.1c0-8.8-7.2-16-16-16L64 112zM48 212.2L48 384c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-171.8L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z"/>
+                    </svg>
+                    support@center.com
+                </li>
+            </ul>
+        </div>
+    </Header>
+    <!-- The Background -->
+    <div class="backimage"></div>
+    <!-- This is the nav bar section -->
+     <nav>
+        <div>
+            <ul class="ULleft">
+                <li class="navlist" id="home">Home</li>
+                <li class="navlist">About</li>
+                <li class="navlist">Listings</li>
+                <li class="navlist">Services</li>
+                <li>Blogs</li>
+            </ul>
+        </div>
+        <div>
+            <ul class="ULcenter">
+                <li id="hommez">
+                    <svg class="hommezsvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205 3 1m1.5.5-1.5-.5M6.75 7.364V3h-3v18m3-13.636 10.5-3.819" />
+                    </svg>  
+                    Hommez
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="ULright">
+                <li class="navlist" id="login">
+                    <svg class="loginsvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    </svg>
+                    Login/Register
+                </li>
+                <li id="addlisting">
+                    <svg class="addlistingsvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205 3 1m1.5.5-1.5-.5M6.75 7.364V3h-3v18m3-13.636 10.5-3.819" />
+                    </svg>                      
+                    Add Listing
+                </li>
+            </ul>
+        </div>
+     </nav>
+     <!-- The Body part -->
+     <section class="section1">
+        <!-- First part -->
+        <div class="gradientcircle2"></div>
+        <div class="container1">
+            <div class="containerdiv1a">
+                <p class="real">REAL ESTATE</p>
+                <P class="perfect">Find a prefect <br>home you love..!</P>
+                <p class="lorem">Lorem ipsum dolor sit amet consec, adipisic. Ducimus asper fibraco<br> provident voluptatibus cum id ullam deleniti, ebiasu in purus.</p>
+                <div class="gradientcircle1"></div>
+                <div class="firsthousediv1a">
+                    <img class="firsthouseimage" src="./Images/4 Bedroom Bungalow (RF 4011).png" alt="">
+                </div>
+                <div>
+                    <div class="arrowleft">
+                        <svg class="firsthousearrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                        </svg>                          
+                    </div>
+                    <div class="arrowright">
+                        <svg class="firsthousearrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                        </svg>                          
+                    </div>
+                </div>
+            </div>
+            <div class="containerdiv1b">  
+                <div class="forsalediv">
+                    <p class="forsaletext">For Sale</p>
+                    <p class="forrenttext">For Rent</p>
+                </div>
+                <hr>
+                <form action="">
+                    <div>
+                        <label for="name" class="hidden-label">first:</label>
+                        <input type="text" class="forminput" id="name" value="New York Francisco, etc">
+                    </div>
+                    <div>
+                        <label for="property1" class="hidden-label">second</label>
+                        <select id="property1" class="forminput">
+                            <option value="option1">Select Property type</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="property2" class="hidden-label">third</label>
+                        <select id="property2" class="forminput">
+                            <option value="option2">Select Property type</option>
+                        </select>
+                    </div>
+                    <div class="adsearchdiv">
+                        <svg class="adsearchsvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 13.5V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 9.75V10.5" />
+                        </svg>                      
+                        Advanced Search
+                    </div>
+                </form>
+                <div class="searchdiv">
+                    <svg id="searchsvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>                          
+                    <p>Search</p>
+                </div>
+            </div>
+        </div>
+        <div class="customerbox">
+            <div class="happy72imagediv">
+                <img  class="happy72image1" src="./Images/1.png" alt="">
+                <img  class="happy72image2" src="./Images/2.png" alt="">
+                <img  class="happy72image3" src="./Images/3.png" alt="">
+                <img  class="happy72image4" src="./Images/4.png" alt="">
+                <img  class="happy72image5" src="./Images/5.png" alt="">
+                <div  class="happy72image6">+</div>
+                <b class="happy72text">72k+ Happy <br>Customers</b>
+            </div>
+            <div class="New200">
+                <img class="New200image" src="./Images/download.png" alt="">
+                <b>200+ New <br>Listings Everyday!</b>
+            </div>
+        </div>
+        <div class="gradientcircle3"></div>
+     </section>
+    <!-- the logo and icon section just below the first part -->
+        <div>
+            <div class="trusteddiv">
+                <p>Trusted by 100+ Companies across the globe!</p>
+            </div>
+            <div class="icondiv">
+                <img class="googleicon" src="./Images/Google.png" alt="">
+                <img class="amazonicon" src="./Images/amazon.png" alt="">
+                <img class="logitechicon" src="./Images/logitech.png" alt="">
+                <img class="sportifyicon" src="./Images/sportify.png" alt="">
+                <img class="samsungicon" src="./Images/samsung.png" alt="">
+            </div>
+        </div>
+    <!-- Second body part -->
+    <section>
+        <div class="whoarewebox">
+            <div>
+                <div class="container2a">
+                    <p class="whoweare">WHO ARE WE</p>
+                    <P class="assisting">Assisting individuals in <br>locating the appropriate <br>real estate.</P>
+                    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nec <br>dent eligendi similique amet natus, explicabo eum ad quae <br>rat, consequatur ratione sint?</p>
+                </div>
+                <div class="container2b">
+                    <svg class="donecsvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z" />
+                    </svg>                      
+                    <div>
+                        <p class="donec">Donec Porttitor eusimod</p>
+                        <p class="lorem">Maiores henderit a similique nec <br>polipsum dolorsit consect</p>
+                    </div>
+                </div>
+                <div class="container2b">
+                    <svg class="donecsvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    </svg>                                            
+                    <div>
+                        <p class="donec">Donec Porttitor eusimod</p>
+                        <p class="lorem">Maiores henderit a similique nec <br>polipsum dolorsit consect</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="bedroomintdiv">
+                    <img class="bedroomint" src="./Images/Bed int.png" alt="">
+                </div>
+                <div>
+                    <div>
+                        <img class="outerhouse" src="./Images/download.png" alt="">
+                    </div>
+                    <div>
+                        <img class="parlour" src="./Images/4 Bedroom Bungalow (RF 4011).png" alt="">
+                    </div>
+                    <div class="gradientcircle4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Third body part -->
+     <section>
+        <div class="container3">
+            <div class="container3a">
+                <p class="checkout">CHECKOUT OUR NEW</p>
+                <P class="latest">Latest Listed Properties</P>
+                <p class="lorem">Lorem ipsum  sit amet adipisicing consectetur <br>dolor elit. Asperiores, modi tenetur.</p>
+            </div>
+            <div class="container3b">
+                <ul class="ULforall">
+                    <li class="Listforall">All</li>
+                    <li class="Listforsell">Sell</li>
+                    <li class="Listforrent">Rent</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="thirdhousediv">
+                <div class="thirdhousediv1">
+                    <div class="thirdhousediv1a">
+                        <img class="thirdhouseimage" src="./Images/4 Bedroom Bungalow (RF 4011).png" alt="">
+                    </div>
+                    <div class="populardiv1">
+                        <svg class="popularsvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
+                        </svg>              
+                        Popular
+                    </div>
+                    <div class="writeupdiv1">
+                        <p class="dollar"><b>$ 5, 970</b></p>
+                        <p class="tranquil"><b>Tranquil Haven in the Woods</b></p>
+                        <p class="wright">103 Wright CourtBurien, WA 98168</p>
+                        <div class="bedimagediv">
+                            <img class="bedimage" src="./Images/bed.png" alt="">
+                            4 Beds
+                            <img class="bathtubimage" src="./Images/bathtub.png" alt="">
+                            3 Baths
+                        </div>
+                    </div>
+                </div>
+                <div class="thirdhousediv1">
+                    <div class="thirdhousediv1b">
+                        <img class="thirdhouseimage" src="./Images/4 Bedroom Bungalow (RF 4011).png" alt="">
+                    </div>
+                    <div class="populardiv2">
+                        <svg class="popularsvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
+                        </svg>              
+                        Popular
+                    </div>
+                    <div class="writeupdiv2">
+                        <p class="dollar"><b>$ 5, 970</b></p>
+                        <p class="tranquil"><b>Tranquil Haven in the Woods</b></p>
+                        <p class="wright">103 Wright CourtBurien, WA 98168</p>
+                        <div class="bedimagediv">
+                            <img class="bedimage" src="./Images/bed.png" alt="">
+                            4 Beds
+                            <img class="bathtubimage" src="./Images/bathtub.png" alt="">
+                            3 Baths
+                        </div>
+                    </div>
+                </div>
+                <div class="thirdhousediv1">
+                    <div class="thirdhousediv1c">
+                        <img class="thirdhouseimage" src="./Images/4 Bedroom Bungalow (RF 4011).png" alt="">
+                    </div>
+                    <div class="populardiv2">
+                        <svg class="popularsvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
+                        </svg>              
+                        Popular
+                    </div>
+                    <div class="writeupdiv2">
+                        <p class="dollar"><b>$ 5, 970</b></p>
+                        <p class="tranquil"><b>Tranquil Haven in the Woods</b></p>
+                        <p class="wright">103 Wright CourtBurien, WA 98168</p>
+                        <div class="bedimagediv">
+                            <img class="bedimage" src="./Images/bed.png" alt="">
+                            4 Beds
+                            <img class="bathtubimage" src="./Images/bathtub.png" alt="">
+                            3 Baths
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thirdhousediv2">
+                <div class="thirdhousediv1">
+                    <div class="thirdhousediv1a">
+                        <img class="thirdhouseimage" src="./Images/4 Bedroom Bungalow (RF 4011).png" alt="">
+                    </div>
+                    <div class="populardiv1">
+                        <svg class="popularsvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
+                        </svg>              
+                        Popular
+                    </div>
+                    <div class="writeupdiv1">
+                        <p class="dollar"><b>$ 5, 970</b></p>
+                        <p class="tranquil"><b>Tranquil Haven in the Woods</b></p>
+                        <p class="wright">103 Wright CourtBurien, WA 98168</p>
+                        <div class="bedimagediv">
+                            <img class="bedimage" src="./Images/bed.png" alt="">
+                            4 Beds
+                            <img class="bathtubimage" src="./Images/bathtub.png" alt="">
+                            3 Baths
+                        </div>
+                    </div>
+                </div>
+                <div class="thirdhousediv1">
+                    <div class="thirdhousediv1b">
+                        <img class="thirdhouseimage" src="./Images/4 Bedroom Bungalow (RF 4011).png" alt="">
+                    </div>
+                    <div class="populardiv2">
+                        <svg class="popularsvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
+                        </svg>              
+                        Popular
+                    </div>
+                    <div class="writeupdiv2">
+                        <p class="dollar"><b>$ 5, 970</b></p>
+                        <p class="tranquil"><b>Tranquil Haven in the Woods</b></p>
+                        <p class="wright">103 Wright CourtBurien, WA 98168</p>
+                        <div class="bedimagediv">
+                            <img class="bedimage" src="./Images/bed.png" alt="">
+                            4 Beds
+                            <img class="bathtubimage" src="./Images/bathtub.png" alt="">
+                            3 Baths
+                        </div>
+                    </div>
+                </div>
+                <div class="thirdhousediv1">
+                    <div class="thirdhousediv1c">
+                        <img class="thirdhouseimage" src="./Images/4 Bedroom Bungalow (RF 4011).png" alt="">
+                    </div>
+                    <div class="populardiv2">
+                        <svg class="popularsvg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
+                        </svg>              
+                        Popular
+                    </div>
+                    <div class="writeupdiv2">
+                        <p class="dollar"><b>$ 5, 970</b></p>
+                        <p class="tranquil"><b>Tranquil Haven in the Woods</b></p>
+                        <p class="wright">103 Wright CourtBurien, WA 98168</p>
+                        <div class="bedimagediv">
+                            <img class="bedimage" src="./Images/bed.png" alt="">
+                            4 Beds
+                            <img class="bathtubimage" src="./Images/bathtub.png" alt="">
+                            3 Baths
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="viewmorediv">
+            View more properties
+        </div>
+     </section>
+</body>
+</html>

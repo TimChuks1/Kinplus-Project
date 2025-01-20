@@ -1,0 +1,638 @@
+body{
+    width: 100%;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.backimage{
+    position: relative;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(202, 182, 247));
+    height: 130vh;
+    border-radius: 0px 0px 5000px 5000px;
+}
+
+/* styling for the header section */
+header{
+    position: relative;
+    background-color: rgb(57,12,162);
+    color: white;
+    height: 40px;
+    align-items: center;
+    display: grid;
+    column-gap: 390px;
+    grid-template-columns: auto auto;
+}
+.headerULleft{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0px 0px 0px 70px;
+}
+.headerULright{
+    display: flex;
+    align-items: center;
+}
+.headerlist{
+    list-style-type: none;
+}
+.locationsvg{
+    height: 13px;
+    fill: white;;
+}
+.callsvg{
+    height: 13px;
+    fill: white;
+}
+.emailsvg{
+    height: 13px;
+    fill: white;
+    margin: 0px 0px 0px 10px;
+}
+
+/* styling of the navbar section */
+nav{
+    position: absolute;
+    top: 60px;
+    display: grid;
+    column-gap: 120px;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+/* navbar list */
+.ULleft{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 70px;
+}
+.ULcenter{
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+}
+.ULright{
+    list-style-type: none;
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    align-items: center;
+}
+.navlist{
+    margin: 0px 30px 0px 0px;
+    font-weight: normal;
+}
+#home{
+    border-radius: 100px;
+    background-color: rgb(225, 212, 253);
+    padding: 8px 16px 8px 16px;
+}
+.hommezsvg{
+    background-color: rgb(49,0,159);
+    color: white;
+    border-radius: 100%;
+    padding: 8px;
+    margin: 0px 7px 0px 0px;
+    height: 25px;
+}
+#hommez{
+    display: flex;
+    align-items: center;
+}
+#addlisting{
+    border-radius: 100px;
+    background-color: rgb(49,0,159);
+    padding: 8px 20px 8px 20px;
+    color: white;    
+    display: flex;
+    align-items: center;
+}
+.addlistingsvg{
+    height: 20px;
+    margin: 0px 7px 0px 0px;
+}
+.loginsvg{
+    height: 20px;
+    margin: 0px 7px 0px 0px;
+}
+#login{
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the body */
+.section1{
+    position: absolute;
+    top: 160px;
+}
+.lorem{
+    color: rgb(166, 151, 202);
+}
+.container1{
+    display: grid;
+    column-gap: 145px;
+    grid-template-columns: auto auto;
+}
+.containerdiv1a{
+    margin: 0px 0px 0px 160px;
+}
+.containerdiv1b{
+    background-color: white;
+    border-radius: 20px;
+    display: block;
+    justify-items: center;
+    margin: 20px 0px 0px 0px;
+    filter: drop-shadow(0px 0px 30px rgb(218, 217, 217));
+}
+/* the left side */
+.real{
+    color: rgb(34, 0, 159);
+    margin: 15px 0px 0px 0px;
+    font-size: large;
+    font-weight: bold;
+}
+.perfect{
+    font-size: 60px;
+    font-weight: bolder;
+    line-height: 0.9;
+    margin: 0px;
+}
+/* the house part */
+.gradientcircle1{
+    position: absolute;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(202, 182, 247));
+    height: 50px;
+    border-radius: 100px;
+}
+.gradientcircle2{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    margin: 170px 0px 0px 670px;
+    border-radius: 100px;
+    background: linear-gradient(45deg, rgb(255, 255, 255), rgb(119, 62, 252));
+}
+.firsthousediv1{
+    margin: 5px;
+}
+.firsthouseimage{
+    position: absolute;
+    height: 54vh;
+    border-radius: 15px;
+}
+.firsthousearrow{
+    height: 10px;
+}
+.arrowleft{
+    position: absolute;
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    left: 150px;
+    margin: 150px 0px 0px 0px;
+    border-radius: 100%;
+    background-color: white;
+}
+.arrowright{
+    position: absolute;
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    margin: 150px 0px 0px 520px;
+    border-radius: 100%;
+    background-color: white;
+}
+/* form inputs */
+.formbox{
+    padding: 5px;
+}
+.forsalediv{
+    display: grid;
+    column-gap: 150px;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.forsaletext{
+    color: rgb(49,0,159);
+}
+.forrenttext{
+    color: rgb(202, 184, 248);
+}
+hr{
+    border: 0;
+    height: 1px;
+    background-color: #f1f1f1;
+    width: 400px;
+    margin: 0px 0px 50px 0px
+}
+.hidden-label {
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
+.forminput{
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 293px;
+    background-color: rgb(248, 247, 247);
+    border: none;
+}
+#property1{
+    width: 333px;
+}
+#property2{
+    width: 333px;
+    margin-bottom: 10px;
+}
+.adsearchsvg{
+    height: 15px;
+    margin: 0px 5px 0px 0px;
+    color: rgb(49,0,159);
+}
+.adsearchdiv{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0px 0px 60px 0px;
+    color: rgb(49,0,159);
+}
+.searchdiv{
+    background-color: rgb(49,0,159);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    width: 330px;
+    margin: 0px 0px 60px 0px;
+}
+#searchsvg{
+    height: 17px;
+    margin: 0px 7px 0px 0px;
+}
+/* the part below the form */
+.customerbox{
+    margin: 100px 0px 20px 150px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.happy72imagediv{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    background-color: white;
+    border-radius: 200px;
+    padding: 12px 12px 12px 12px;
+    font-size: larger;
+    filter: drop-shadow(4px 4px 16px rgb(216, 215, 215));
+}
+.happy72image1{
+    position: absolute;
+    border: 2px solid white;
+    height: 20px;
+    width: 20px;
+    border-radius: 500px;
+    margin: 0px 200px 0px 0px;
+}
+.happy72image2{
+    position: absolute;
+    border: 2px solid white;
+    transform: translateX(15px);
+    border: 2px solid white;
+    height: 20px;
+    width: 20px;
+    border-radius: 500px;
+    margin: 0px 200px 0px 0px;
+}
+.happy72image3{
+    position: absolute;
+    border: 2px solid white;
+    transform: translateX(30px);
+    height: 20px;
+    width: 20px;
+    border-radius: 500px;
+    margin: 0px 200px 0px 0px;
+}
+.happy72image4{
+    position: absolute;
+    border: 2px solid white;
+    transform: translateX(45px);
+    height: 20px;
+    width: 20px;
+    border-radius: 500px;
+    margin: 0px 200px 0px 0px;
+}
+.happy72image5{
+    position: absolute;
+    border: 2px solid white;
+    transform: translateX(60px);
+    height: 20px;
+    width: 20px;
+    border-radius: 500px;
+    margin: 0px 200px 0px 0px;
+}
+.happy72image6{
+    position: absolute;
+    border: 2px solid white;
+    text-align: center;
+    transform: translateX(75px);
+    border-radius: 100px;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    color: white;
+    margin: 0px 200px 0px 0px;
+}
+.happy72text{
+    margin: 0px 0px 0px 100px;
+}
+.New200image{
+    height: 50px;
+    width: 50px;
+    border-radius: 500px;
+    margin: 0px 10px 0px 0px;
+
+}
+.New200{
+    margin: 0px 0px 0px 30px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 200px;
+    padding: 12px 12px 12px 12px;
+    font-size: larger;
+    filter: drop-shadow(4px 4px 16px rgb(216, 215, 215));
+}
+.gradientcircle3{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    margin: 0px 0px 0px 280px;
+    border-radius: 100px;
+    background: linear-gradient(45deg, rgb(255, 255, 255), rgb(178, 148, 248));
+}
+
+/* the logo and icon section just below the first part */
+.trusteddiv{
+    color: rgb(166, 151, 202);
+    display: block;
+    justify-items: center;
+    line-height: 0;
+    margin: 160px 0px 0px 0px;
+}
+.icondiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+}
+.googleicon{
+    height: 80px;
+    filter: grayscale();
+}
+.amazonicon{
+    height: 20px;
+    filter: grayscale();
+    margin: 0px 0px 0px 80px;
+}
+.logitechicon{
+    height: 80px;
+    filter: grayscale();
+    margin: 0px 0px 0px 80px;
+}
+.sportifyicon{
+    height: 30px;
+    filter: grayscale();
+    margin: 0px 0px 0px 80px;
+}
+.samsungicon{
+    height: 100px;
+    filter: grayscale();
+    margin: 0px 0px 0px 80px;
+}
+
+
+/* styling for second body part */
+.whoarewebox{
+    display: flex;
+}
+.container2a{
+    margin: 130px 0px 0px 160px;
+}
+.whoweare{
+    color: rgb(34, 0, 159);
+    margin: 15px 0px 0px 0px;
+    font-size: large;
+    font-weight: bold;
+}
+.assisting{
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 0.9;
+    margin: 10px 0px 0px 0px;
+}
+.container2b{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px 0px 160px;
+    border-radius: 30px;
+    background-color: white;
+    filter: drop-shadow(0px 12px 40px rgb(221, 221, 221));
+    width: 390px;
+    padding: 20px 0px 20px 0px;
+}
+.donecsvg{
+    height: 20px;
+    color: rgb(34, 0, 159);
+    margin: 0px 20px 0px 25px;
+}
+.donec{
+    color: rgb(34, 0, 159);
+    font-size: larger;
+    font-weight: bold;
+    line-height: 0;
+}
+.bedroomintdiv{
+    position: absolute;
+    margin: 220px 0px 0px 20px;
+}
+.bedroomint{
+    border-radius: 30px;
+    height: 450px;
+}
+.outerhouse{
+    height: 230px;
+    width: 240px;
+    border-radius: 20px;
+    margin: 180px 0px 0px 340px;
+}
+.parlour{
+    height: 180px;
+    width: 240px;
+    border-radius: 20px;
+    margin: 20px 0px 0px 340px;
+}
+.gradientcircle4{
+    height: 50px;
+    width: 50px;
+    margin: 20px 0px 0px 380px;
+    border-radius: 100px;
+    background: linear-gradient(45deg, rgb(255, 255, 255), rgb(178, 148, 248));
+}
+
+
+/* styling for third body part */
+.container3{
+    display: grid;
+    column-gap: 150px;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.container3a{
+    margin: 160px 0px 0px 160px;
+}
+.checkout{
+    color: rgb(34, 0, 159);
+    margin: 15px 0px 0px 0px;
+    font-size: large;
+    font-weight: bold;
+}
+.latest{
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 0.4;
+    margin: 10px 0px 0px 0px;
+}
+.container3b{
+    margin: 200px 0px 0px 0px;
+}
+.ULforall{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.Listforall{
+    border: 1.5px solid rgb(49,0,159);
+    color: rgb(49,0,159);
+    border-radius: 100px;
+    padding: 10px 25px 10px 25px;
+}
+.Listforsell{
+    color: white;
+    background-color: rgb(49,0,159);
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 10px 0px 10px;
+}
+.Listforrent{
+    border: 1.5px solid rgb(49,0,159);
+    color: rgb(49,0,159);
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+}
+.thirdhousediv{
+    display: flex;
+    align-items: center;
+}
+.thirdhousediv2{
+    display: flex;
+    align-items: center;
+    margin: 130px 0px 0px 0px;
+}
+.thirdhousediv1{
+    display: flex;
+    align-items: center;
+}
+.thirdhousediv1a{
+    margin: 0px 0px 0px 160px;
+}
+.thirdhousediv1b{
+    margin: 0px 0px 0px 30px;
+}
+.thirdhousediv1c{
+    margin: 0px 0px 0px 30px;
+}
+.thirdhouseimage{
+    border-radius: 20px;
+    height: 320px;
+    width: 310px;
+}
+/* the writeup parts of this section */
+/* for the first box */
+.populardiv1{
+    position: absolute;
+    margin: 240px 0px 0px 180px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    background-color: rgb(255, 221, 221);
+    border-radius: 100px;
+    width: 100px;
+}
+.popularsvg{
+    height: 20px;
+    color: red;
+    margin: 0px 10px 0px 0px;
+}
+.writeupdiv1{
+    margin: 430px 0px 0px 160px;
+    position: absolute;
+}
+.dollar{
+    font-size: 25px;
+    line-height: 0.0;
+}
+.wright{
+    font-size: smaller;
+    color: rgb(158, 157, 157);
+    line-height: 0.0;
+}
+.bedimagediv{
+    display: flex;
+    align-items: center;
+}
+.bedimage{
+    height: 25px;
+    margin: 0px 5px 0px 0px;
+}
+.bathtubimage{
+    height: 15px;
+    margin: 0px 5px 0px 40px;
+}
+/* for the second and third box */
+.populardiv2{
+    position: absolute;
+    margin: 240px 0px 0px 50px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    background-color: rgb(255, 221, 221);
+    border-radius: 100px;
+    width: 100px;
+}
+.writeupdiv2{
+    margin: 430px 0px 0px 30px;
+    position: absolute;
+}
+.viewmorediv{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 180px 0px 0px 0px;
+    width: 180px;
+    margin-bottom: 50px;
+    border-radius: 100px;
+    border: 1px solid rgb(49,0,159);
+    padding: 15px 20px 15px 15px;
+    color: rgb(49,0,159);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
