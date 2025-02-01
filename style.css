@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     width: 100%;
     margin: 0px;
@@ -636,3 +640,346 @@ hr{
     display: flex;
     justify-content: center;
 }
+
+/* Beginning of Footer styles */
+
+.footer-section {
+    background-color: #3a0ca3;
+    color: #fdefff;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 35px 45px;
+    place-content: center;
+}
+.footer-section h2 {
+    font-weight: bolder;
+}
+.trending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+.trending h2 {
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.calendar {
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 8px;
+    line-height: 1px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-content: center;
+    margin-top: -5px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 2px;
+}
+
+.foot-image {
+    display: flex;
+    text-wrap: wrap;
+}
+.foot-image h2 {
+    text-align: justify;
+}
+.foot-image p {
+    font-size: 16px;
+}
+.foot-image button {
+    justify-content: center;
+    position: relative;
+    right: -40%;
+}
+
+.foot-image img {
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    flex: 1,0,1;
+}
+
+.blog-sroll {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    position: relative;
+    justify-content: right;
+    font-size: x-large;
+    justify-content: center;
+    cursor: pointer;
+}
+.blog-sroll:hover {
+    background-color: yellowgreen;
+    color: azure;
+    font-size: larger;
+}
+
+.foot-2 {
+    background-color: #f1f1f1;
+    padding: 35px 45px;
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+.testimonial {
+    color: #896ad1;
+}
+.footer-2 h2 {
+    font-weight: 700;
+}
+.footer-2 p {
+    font-size: 12px;
+}
+.test-gap {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.test-scrolls {
+    width: 35px;
+    height: 35px;
+    font-size: larger;
+    border-radius: 100%;
+    color: #3a0ca3;
+    border-style: inset;
+    border-color: silver;
+    opacity: 48%;
+}
+.test-scroll {
+    width: 35px;
+    height: 35px;
+    font-size: larger;
+    border-radius: 100%;
+    color: #3a0ca3;
+    border-style: inset;
+    border-color: silver;
+}
+
+.test-scroll:hover {
+    background-color: yellowgreen;
+    color: azure;
+}
+
+.feedback-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-top: -55px;
+    position: relative;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.feedback-card img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: -40px;
+}
+
+figcaption {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-family: 'Verdana',sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+.quote-icon {
+    color: yellow;
+    font-size: xx-large;
+    position: relative;
+    right: 28px;
+}
+
+.quote {
+    font-style: italic;
+    margin-top: -20px;
+}
+.star-color {
+    color: yellow;
+    font-weight: 900;
+}
+.roll-ball {
+    background: linear-gradient(rgb(255, 255, 255), rgb(178, 148, 248));
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    right: 32px;
+    top: -20px;
+    z-index: 1;
+}
+.agent-man {
+    background-color: #3a0ca3;
+    color: #f1f1f1;
+    padding-top: -5px;
+    /* max-width: 100%;
+    max-height: 25%; */
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 12px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+}
+.agent {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.agent img {
+    object-fit: contain;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: -50px;
+    margin-bottom: -55px;
+    margin-top: -40px;
+}
+
+.roll-balla {
+    background: linear-gradient(rgb(255, 255, 255), rgb(124, 88, 206));
+    opacity: 50%;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    right: -72px;
+    top: 50px;
+}
+
+.agent-h2p h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.agent-h2p p {
+    font-size: smaller;
+    font-style: italic;
+}
+
+.agent-btn {
+    background-color: white;
+    color: blue;
+    width: 150px;
+    height: 35px;
+    border: none;
+    padding: 10px;
+    margin-top: -35px;
+    margin-left: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.roll-ballss {
+    background: linear-gradient( rgb(255, 255, 255), rgb(178, 148, 248));
+    position: relative;
+    opacity: 35%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    right: -148px;
+    top: -40px;
+}
+
+.footer-end {
+    background-color: aliceblue;
+    padding: 15px 35px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+.foot-logo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.Quick-links ul {
+    list-style: none;
+}
+.Discovery ul {
+    list-style: none;
+}
+.subscribe-btn {
+    width: 200px;
+    height: 35px;
+    border: none;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: -5px;
+}
+.send-mail-btn {
+    background-color: #3a0ca3;
+    width: 35px;
+    height: 35px;
+    font-size: larger;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -53px;
+    color: white;
+    cursor: pointer;
+}
+
+.follow-us img {
+    width: 50px;
+    height: 25px;
+}
+.footer-end h2 {
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.dark-foot {
+    background-color: black;
+    padding-top: 5px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* Back to Top Css Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .back-to-top.visible {
+    opacity: 1;
+  }
